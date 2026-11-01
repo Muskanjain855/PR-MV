@@ -63,3 +63,29 @@
 10. RPO requires buying renewable energy. ESO requires a share of energy to be backed by storage.
 11. FTM: energy shifting or ancillary services. BTM: peak shaving or lower bills.
 12. Batteries respond in milliseconds. Coal plants take much longer to ramp.
+
+---
+
+## Part 3: Madhya Pradesh (MP) Section (as of Nov 2026, verify against official sources)
+
+### BESS tenders (MPPMCL, the state bulk power buyer)
+| Tender | Size | Notes |
+|---|---|---|
+| Jan 2026 | 750 MW / 1,500 MWh | Bids due 23 Feb 2026. 12-year agreement from full commissioning |
+| Jul 2026 | 625 MW / 1,250 MWh | Build-own-operate. 250 + 250 + 125 MW units. Bids due 30 Jul 2026 |
+
+Common rules: minimum 2-hour discharge, two cycles per day, VGF up to ₹18 lakh/MWh (central scheme, June 2025), proven technology only, no refurbished cells, energy management software developed in India, developer arranges own land.
+
+### State policies
+- Pumped Hydro Storage Policy (Feb 2025): 12,000 MW of 4-hour storage by 2034-35, 10-year exemption from electricity duty and energy development cess.
+- Renewable Energy Policy 2025 (notified 4 Apr 2025, 5 years): 10,000 MW of RE parks, 50% wheeling charge waiver for 5 years, 10-year electricity duty exemption.
+
+### Flagship projects
+- Morena solar + storage: ~440 MW solar + 880 MWh battery, reported tariff ~₹2.70/kWh (some sources say 600 MW, so confirm).
+- Gandhi Sagar: 1,920 MW pumped storage (Greenko), ~10,326 MWh.
+- Neemuch: 500 MW solar park linked to pumped-storage cluster.
+- Rewa: 750 MW solar park supplying Delhi Metro.
+
+### Still to check
+- MPERC orders on storage tariffs, open access and wheeling for BESS.
+- Award results and tariffs for the two BESS tenders (MPPMCL portal).
