@@ -6,6 +6,8 @@
 | R02 | https://www.instagram.com/reel/Dd6vHlQgpok/ | _tbd_ | _tbd_ | _tbd_ |
 | R03 | https://www.instagram.com/reel/DQjix6sjDX0/ | _tbd_ | _tbd_ | _tbd_ |
 | R04 | https://www.instagram.com/p/DfsBQUYFZOy/ | _tbd_ | _tbd_ | _tbd_ |
+| R05 | https://www.instagram.com/reel/DT-J-MrD8Hu/ | _tbd_ | _tbd_ | _tbd_ |
+| R06 | https://www.instagram.com/reel/DdrTZqtxfDK/ | _tbd_ | _tbd_ | _tbd_ |
 
 ---
 
