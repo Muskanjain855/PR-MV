@@ -21,6 +21,9 @@
 | R17 | https://www.instagram.com/reel/DctILe9TkdQ/ | _tbd_ | _tbd_ | _tbd_ |
 | R18 | https://www.instagram.com/reel/DcsoZQMzr6W/ | _tbd_ | _tbd_ | _tbd_ |
 | R19 | https://www.instagram.com/reel/DZ8Jt1fA6ji/ | _tbd_ | _tbd_ | _tbd_ |
+| R20 | https://www.instagram.com/reel/DcLvOcduCeW/ | _tbd_ | _tbd_ | _tbd_ |
+| R21 | https://www.instagram.com/p/Db50a4Rkib-/?img_index=6 | _tbd_ | _tbd_ | _tbd_ |
+| R22 | https://www.instagram.com/reel/DcOdgWchrQp/ | _tbd_ | _tbd_ | _tbd_ |
 
 ---
 
