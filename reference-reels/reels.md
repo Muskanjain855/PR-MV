@@ -2,7 +2,8 @@
 
 | ID | Link | Creator | Topic / Niche | Why it's a good reference |
 |----|------|---------|---------------|---------------------------|
-| R01 | _paste link_ | | | |
+| R01 | https://www.instagram.com/reel/DdbuPQZM5hI/ | _tbd_ | _tbd_ | _tbd_ |
+| R02 | https://www.instagram.com/reel/Dd6vHlQgpok/ | _tbd_ | _tbd_ | _tbd_ |
 
 ---
 
