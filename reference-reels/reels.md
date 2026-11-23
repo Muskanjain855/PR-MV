@@ -10,6 +10,8 @@
 | R06 | https://www.instagram.com/reel/DdrTZqtxfDK/ | _tbd_ | _tbd_ | _tbd_ |
 | R07 | https://www.instagram.com/reel/DdtZNG9PXkP/ | _tbd_ | _tbd_ | _tbd_ |
 | R08 | https://www.instagram.com/reel/De3hPHVijaX/ | _tbd_ | _tbd_ | _tbd_ |
+| R09 | https://www.instagram.com/p/DdmP9PDkSiI/ | _tbd_ | _tbd_ | _tbd_ |
+| R10 | https://www.instagram.com/reel/DdMZQ6vB9Az/ | _tbd_ | _tbd_ | _tbd_ |
 
 ---
 
