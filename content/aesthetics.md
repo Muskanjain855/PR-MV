@@ -2,23 +2,23 @@
 
 **Direction:** warm documentary. Natural window light, candid pauses, imperfect rooms, ordinary gestures. No heavy filter. Consistency comes from type and layout, not one colour filter on everything.
 
-## Palette (v2: vibrant, old-school Indian, 90s-desi)
-Replaces the earlier parchment/olive palette from the bible.
+## Palette (v3: balanced, modern-Indian)
+Between old-school desi and Gen Z. Colour with warmth, but softened and wearable, like skirts, barrel pants, styled dresses and a farshi salwar set in the same wardrobe.
 
 | Name | Hex | Use |
 |------|-----|-----|
-| Marigold | #F4A300 | main accent, text highlights |
-| Rani pink | #D81B60 | stickers, underlines |
-| Peacock blue | #0B6E8C | secondary, backgrounds |
-| Mehndi green | #5A7D2A | small accents |
-| Sindoor red | #C8321F | emphasis words |
-| Cream / old paper | #F6E7C8 | title-card background |
-| Kajal black | #1E1A17 | main text |
+| Marigold (softened) | #E8A33D | main accent, highlight words |
+| Terracotta | #C8603E | stickers, underlines |
+| Dusty rose | #D98A9B | soft accent, cards |
+| Deep teal | #1F6F78 | secondary, backgrounds |
+| Sage | #9AAB8A | calm accents |
+| Cream | #F5EBDD | title-card background |
+| Ink | #26211E | main text |
 
-Mood: Doordarshan-era, truck art, old film posters, bangles, marigold garlands, chai-stall signs. Bold colour blocks, a retro serif or hand-lettered headline font, one consistent card style.
+Mood: handloom and block prints, linen, farshi salwar next to a barrel pant, chai on a window ledge, ordinary rooms in warm light. Colourful but not loud, no neon, no sepia.
 
 ## Type and cards
-- One reusable title-card style: kajal-black text on a cream or marigold card, same font every time (suggestion: an editorial serif for headlines, a clean sans for small text; not specified in the bible).
+- One reusable title-card style: ink text on a cream, marigold or dusty-rose card, same font every time (my suggestion: a modern serif for headlines, a clean sans for small text).
 - Big text, one phrase at a time, left-aligned or centered consistently.
 
 ## Shooting

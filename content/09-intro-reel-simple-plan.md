@@ -36,7 +36,7 @@ No clips with addresses, number plates or other people's information.
 2. Lay the clips over it, in this order: profile screen, tea, walking, typing, face.
 3. Trim each clip to about 2-3 seconds so the cuts follow your lines.
 4. Add the text hook as a big text card for the first 2 seconds.
-5. Add auto-captions, then fix any mistakes by hand. One font, one color pair from the palette (kajal black on cream or marigold).
+5. Add auto-captions, then fix any mistakes by hand. One font, one color pair from the palette (ink on cream, marigold or dusty rose).
 6. Add one soft licensed track from CapCut/Instagram at low volume.
 7. No fancy transitions. Plain cuts only.
 8. Export 1080x1920 (vertical).
