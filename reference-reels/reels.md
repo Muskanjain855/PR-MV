@@ -18,6 +18,9 @@
 | R14 | https://www.instagram.com/reel/DSsRlI0ksiJ/ | _tbd_ | _tbd_ | _tbd_ |
 | R15 | https://www.instagram.com/p/Dfw2S_KmOdq/ | _tbd_ | _tbd_ | _tbd_ |
 | R16 | https://www.instagram.com/reel/DY2DyarEoCk/ | _tbd_ | _tbd_ | _tbd_ |
+| R17 | https://www.instagram.com/reel/DctILe9TkdQ/ | _tbd_ | _tbd_ | _tbd_ |
+| R18 | https://www.instagram.com/reel/DcsoZQMzr6W/ | _tbd_ | _tbd_ | _tbd_ |
+| R19 | https://www.instagram.com/reel/DZ8Jt1fA6ji/ | _tbd_ | _tbd_ | _tbd_ |
 
 ---
 
