@@ -2,17 +2,23 @@
 
 **Direction:** warm documentary. Natural window light, candid pauses, imperfect rooms, ordinary gestures. No heavy filter. Consistency comes from type and layout, not one colour filter on everything.
 
-## Palette
+## Palette (v2: vibrant, old-school Indian, 90s-desi)
+Replaces the earlier parchment/olive palette from the bible.
+
 | Name | Hex | Use |
 |------|-----|-----|
-| Parchment | #EFE4D3 | backgrounds, title cards |
-| Olive | #B5AD91 | secondary panels |
-| Coffee | #715848 | accents, sub-text |
-| Sage | #A7B2A1 | highlights, stickers |
-| Charcoal | #3B302C | main text |
+| Marigold | #F4A300 | main accent, text highlights |
+| Rani pink | #D81B60 | stickers, underlines |
+| Peacock blue | #0B6E8C | secondary, backgrounds |
+| Mehndi green | #5A7D2A | small accents |
+| Sindoor red | #C8321F | emphasis words |
+| Cream / old paper | #F6E7C8 | title-card background |
+| Kajal black | #1E1A17 | main text |
+
+Mood: Doordarshan-era, truck art, old film posters, bangles, marigold garlands, chai-stall signs. Bold colour blocks, a retro serif or hand-lettered headline font, one consistent card style.
 
 ## Type and cards
-- One reusable title-card style: charcoal text on parchment, same font every time (suggestion: an editorial serif for headlines, a clean sans for small text; not specified in the bible).
+- One reusable title-card style: kajal-black text on a cream or marigold card, same font every time (suggestion: an editorial serif for headlines, a clean sans for small text; not specified in the bible).
 - Big text, one phrase at a time, left-aligned or centered consistently.
 
 ## Shooting
