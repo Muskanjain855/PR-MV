@@ -14,6 +14,8 @@
 | R10 | https://www.instagram.com/reel/DdMZQ6vB9Az/ | _tbd_ | _tbd_ | _tbd_ |
 | R11 | https://www.instagram.com/reel/DPS8Ijmk1QA/ | _tbd_ | _tbd_ | _tbd_ |
 | R12 | https://www.instagram.com/reel/DdGCb6GveRa/ | _tbd_ | _tbd_ | _tbd_ |
+| R13 | https://www.instagram.com/reel/DcgsjREoErw/ | _tbd_ | _tbd_ | _tbd_ |
+| R14 | https://www.instagram.com/reel/DSsRlI0ksiJ/ | _tbd_ | _tbd_ | _tbd_ |
 
 ---
 
