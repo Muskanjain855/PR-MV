@@ -24,6 +24,16 @@
 | R20 | https://www.instagram.com/reel/DcLvOcduCeW/ | @charlotte.arsenault | Personal-brand tea/story reel, comment "MAGNETIC" for free guide | Personal-branding story + lead-magnet CTA |
 | R21 | https://www.instagram.com/p/Db50a4Rkib-/?img_index=6 | @dumpwithriaaa | Aesthetic photo dump: "its never too late apparently" (/p/ link, slide 7); 63K likes | Aesthetic/Pinterest-style carousel |
 | R22 | https://www.instagram.com/reel/DcOdgWchrQp/ | @heaheelee | 6 viral hooks, comment "HOOKS" for the originals; 2.4K comments | Hook swipe file for scripting |
+| R23 | https://www.instagram.com/reel/DeeUr6PvlBS/ | @daizyywho | Product/day-in-my-life: new shoes unboxing, "work and play" (brand collab) | Same creator as R07; casual day-in-my-life + product format |
+| R24 | https://www.instagram.com/p/DfzkzGKmi7Y/ | @utkarsh_narang_ | "You don't have to have it all figured out": ambitious and tired, grateful and uncertain (/p/ link, likely carousel) | Closest message to our idea: two things can be true at once. Great carousel tone reference |
+| R25 | https://www.instagram.com/reel/DfAm33Yv2HY/ | @ritaylasmariposas | Intro: "never felt like I belonged in any pre-made box", therapy + art; friend's voiceover, no AI | Creative, non-niche intro with a human voiceover |
+| R26 | https://www.instagram.com/reel/Df7K3drSeuQ/ | @charlotte.arsenault | "Welcome to my brain" folder-style intro | Playful concept: brain as folders. Good for a 'contradictions' format |
+| R27 | https://www.instagram.com/p/DgAFEUQiSGU/?img_index=10 | _pending_ | Instagram rate-limited this one; details not yet read (/p/ link, slide 11) | _to fill_ |
+| R28 | https://www.instagram.com/reel/DdBnIwvIJkx/ | @asha.lifelately | First reel: "told to start before I have everything figured out"; 38K likes | Very close to our story: starting before it's perfect after months of overthinking |
+| R29 | https://www.instagram.com/reel/DdM1DqGAFKi/ | @createdbyjunior | First reel, cinematography/travel; 26K likes | Cinematic B-roll reference |
+| R30 | https://www.instagram.com/reel/Dct8TeEOAB6/ | @steffi.tattoo | "GRWM but make it organized chaos"; 24K likes | Chaos-as-aesthetic framing, GRWM format |
+| R31 | https://www.instagram.com/reel/Dd_XdRKtQGV/ | @_mariyaps | "Details are the whole damn story"; content strategist, storytelling; 98K likes | Storytelling through small details; strong reach |
+| R32 | https://www.instagram.com/p/DfwtHkVlbdE/?img_index=3 | @thattgirlenergy | "November intention" self-care note (/p/ link, slide 4) | Soft note-to-self carousel tone |
 
 > Filled from public captions/metadata only. Video content (visuals, audio, edits) not yet reviewed.
 
