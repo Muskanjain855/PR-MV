@@ -1,0 +1,327 @@
+<title>Vision Board 2027</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=DM+Sans:wght@400;500;700&family=Caveat:wght@500;700&display=swap">
+<style>
+/* Layout concept: a pinned collage. Colour-blocked tiles of different sizes, each with a drawn "picture this" scene,
+   a handwritten note and one 2027 step. Palette is the page's balanced modern-Indian set. */
+:root{
+  --bg:#F5EBDD; --fg:#26211E; --muted:#6d5f56; --line:#d9c9b2;
+  --marigold:#E8A33D; --terracotta:#C8603E; --rose:#D98A9B; --teal:#1F6F78; --sage:#9AAB8A;
+  --on-light:#26211E; --on-dark:#FBF3E6;
+  --paper:#FFFBF4;
+  --display:'Fraunces',Georgia,'Times New Roman',serif;
+  --body:'DM Sans',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --hand:'Caveat','Bradley Hand','Segoe Print',cursive;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#1d1816; --fg:#F2E7D6; --muted:#b5a592; --line:#3a2f2a; --paper:#2a221f; color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1d1816; --fg:#F2E7D6; --muted:#b5a592; --line:#3a2f2a; --paper:#2a221f; color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.5;margin:0;
+  padding-block:32px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));overflow-x:clip}
+.wrap{max-width:1180px;margin:0 auto}
+h1,h2,h3{font-family:var(--display);font-weight:700;line-height:1.1;margin:0;text-wrap:balance}
+
+/* header */
+.head{display:grid;gap:20px;grid-template-columns:1fr;align-items:end;padding-bottom:28px;border-bottom:2px solid var(--fg)}
+.kicker{font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--terracotta)}
+.head h1{font-size:clamp(40px,8vw,88px);letter-spacing:-.02em}
+.head h1 em{font-style:italic;font-weight:500;color:var(--terracotta)}
+.sub{max-width:52ch;color:var(--muted);margin:8px 0 0}
+.word{background:var(--marigold);color:var(--on-light);padding:16px 20px;border-radius:4px;transform:rotate(-1.5deg);justify-self:start}
+.word small{display:block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:700}
+.word b{font-family:var(--display);font-size:34px;display:block;line-height:1.1}
+.word span{font-family:var(--hand);font-size:22px;line-height:1.1}
+@media(min-width:800px){.head{grid-template-columns:1fr auto}.word{justify-self:end}}
+
+/* board */
+.board{display:grid;gap:16px;grid-template-columns:1fr;margin-top:28px}
+@media(min-width:700px){.board{grid-template-columns:repeat(6,1fr)}}
+@media(min-width:1000px){.board{grid-template-columns:repeat(12,1fr)}}
+.tile{position:relative;border-radius:6px;padding:20px 20px 18px;display:flex;flex-direction:column;gap:12px;min-width:0;
+  background:var(--tb);color:var(--tf)}
+.t-teal{--tb:var(--teal);--tf:var(--on-dark);--ill:#F5EBDD;--ill2:#E8A33D}
+.t-marigold{--tb:var(--marigold);--tf:var(--on-light);--ill:#26211E;--ill2:#C8603E}
+.t-terra{--tb:var(--terracotta);--tf:var(--on-dark);--ill:#F5EBDD;--ill2:#E8A33D}
+.t-rose{--tb:var(--rose);--tf:var(--on-light);--ill:#26211E;--ill2:#1F6F78}
+.t-sage{--tb:var(--sage);--tf:var(--on-light);--ill:#26211E;--ill2:#C8603E}
+.t-paper{--tb:var(--paper);--tf:var(--fg);--ill:var(--fg);--ill2:var(--terracotta);outline:2px dashed var(--line);outline-offset:-8px}
+.chip{align-self:flex-start;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;border:1.5px solid currentColor;border-radius:99px;padding:3px 10px}
+.tile h2{font-size:clamp(24px,3.2vw,34px)}
+.pic{font-family:var(--hand);font-size:22px;line-height:1.15}
+.pic b{display:block;font-size:13px;font-family:var(--body);letter-spacing:.14em;text-transform:uppercase;font-weight:700;opacity:.8;margin-bottom:2px}
+.step{margin:auto 0 0;padding-top:10px;border-top:1.5px solid currentColor;font-size:14px}
+.step b{font-weight:700}
+svg.ill{width:100%;height:auto;max-height:150px;display:block}
+.ill .a{fill:var(--ill)} .ill .b{fill:var(--ill2)} .ill .l{fill:none;stroke:var(--ill);stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.ill .l2{fill:none;stroke:var(--ill2);stroke-width:3;stroke-linecap:round}
+
+/* spans */
+@media(min-width:1000px){
+  .s-career{grid-column:span 6}.s-biz{grid-column:span 3}.s-money{grid-column:span 3}
+  .s-peace{grid-column:span 4}.s-health{grid-column:span 4}.s-travel{grid-column:span 4}
+  .s-house{grid-column:span 5}.s-car{grid-column:span 3}.s-style{grid-column:span 4}
+  .s-write{grid-column:span 4}.s-love{grid-column:span 4}.s-people{grid-column:span 4}
+  .tilt1{transform:rotate(-.6deg)}.tilt2{transform:rotate(.5deg)}.tilt3{transform:rotate(-.4deg)}
+}
+@media(min-width:700px) and (max-width:999px){
+  .s-career,.s-house{grid-column:span 6}.s-biz,.s-money,.s-peace,.s-health,.s-travel,.s-car,.s-style,.s-write,.s-love,.s-people{grid-column:span 3}
+}
+
+/* mountain fund */
+.fund{display:flex;gap:14px;align-items:center}
+.fund svg{width:96px;flex:none}
+.fund label{font-size:13px;display:block}
+.fund input[type=range]{width:100%;accent-color:var(--terracotta)}
+.fund output{font-weight:700}
+
+/* lower sections */
+section.block{margin-top:56px}
+section.block>h2{font-size:clamp(28px,4vw,44px);margin-bottom:6px}
+.lede{color:var(--muted);max-width:60ch;margin:0 0 20px}
+.cols{display:grid;gap:16px;grid-template-columns:1fr}
+@media(min-width:760px){.cols{grid-template-columns:repeat(2,1fr)}}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:18px 20px;min-width:0}
+.card h3{font-size:20px;margin-bottom:8px}
+.card ul{margin:0;padding-left:18px}.card li{margin:5px 0}
+.add{display:grid;gap:12px;grid-template-columns:1fr}
+@media(min-width:700px){.add{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1000px){.add{grid-template-columns:repeat(3,1fr)}}
+.add div{border-left:4px solid var(--terracotta);padding:4px 0 4px 14px}
+.add b{display:block}
+.add span{color:var(--muted);font-size:14px}
+footer{margin-top:48px;color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding-top:14px}
+.hand{font-family:var(--hand);font-size:24px;color:var(--terracotta)}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+:focus-visible{outline:3px solid var(--terracotta);outline-offset:3px}
+</style>
+
+<div class="wrap">
+<header class="head">
+  <div>
+    <div class="kicker">Thirty, Apparently &middot; Vision board for 2027</div>
+    <h1>A little bit of <em>everything</em>, on purpose.</h1>
+    <p class="sub">Peace and money. Mountains and a good bed to come home to. A page that sounds like her, a body that is listened to, and a life that doesn't need to be resolved before it gets lived.</p>
+  </div>
+  <div class="word"><small>Word for the year</small><b>Unhurried</b><span>start before ready, finish without panic</span></div>
+</header>
+
+<main class="board">
+
+<!-- CAREER -->
+<article class="tile t-teal s-career tilt1">
+  <span class="chip">Career &middot; the page</span>
+  <h2>A page that sounds like me.</h2>
+  <svg class="ill" viewBox="0 0 240 120" role="img" aria-label="A phone propped on books by a window, with a calendar of posting days">
+    <rect class="a" x="8" y="8" width="70" height="104" rx="4" opacity=".18"/>
+    <path class="l" d="M18 20h50M18 20v84M68 20v84"/>
+    <path class="l" d="M30 36h26M30 52h26"/>
+    <rect class="a" x="96" y="78" width="44" height="10" rx="2"/><rect class="a" x="100" y="66" width="36" height="10" rx="2" opacity=".7"/><rect class="a" x="104" y="54" width="28" height="10" rx="2" opacity=".5"/>
+    <rect class="l" x="108" y="14" width="22" height="40" rx="4"/><circle class="b" cx="119" cy="24" r="3"/>
+    <rect class="l" x="156" y="14" width="76" height="92" rx="4"/>
+    <path class="l" d="M156 34h76"/>
+    <g class="b"><circle cx="172" cy="50" r="5"/><circle cx="194" cy="50" r="5"/><circle cx="216" cy="50" r="5"/><circle cx="172" cy="70" r="5"/><circle cx="216" cy="70" r="5"/><circle cx="194" cy="90" r="5"/></g>
+  </svg>
+  <div class="pic"><b>Picture this</b>A corner by the window. A phone on a stack of books. A wall calendar with posting days circled in marigold, not crossed out in guilt. Chai going cold, on purpose, because the take is good.</div>
+  <p class="step"><b>2027:</b> 3 posts a week for the full year (skipping Sundays). One long film a month. First paid collaboration. 1,000 people who actually watch to the end.</p>
+</article>
+
+<!-- BUSINESS -->
+<article class="tile t-terra s-biz tilt2">
+  <span class="chip">Business</span>
+  <h2>The business that pays me back.</h2>
+  <svg class="ill" viewBox="0 0 120 90" role="img" aria-label="A wrapped parcel tied with thread and a small tick">
+    <rect class="l" x="22" y="30" width="62" height="46" rx="3"/><path class="l" d="M53 30v46M22 53h62"/>
+    <path class="l2" d="M53 30c-8-14-22-12-18-2M53 30c8-14 22-12 18-2"/>
+    <circle class="b" cx="96" cy="26" r="14"/><path class="l" d="M89 26l5 5 9-11" style="stroke:var(--tb)"/>
+  </svg>
+  <div class="pic"><b>Picture this</b>Hands wrapping a parcel at a clean table. A ledger page where the last column is finally green. One thing taken off my plate by someone else.</div>
+  <p class="step"><b>2027:</b> One clear offer. Profit tracked monthly. Business and personal money in separate accounts. Help for one task.</p>
+</article>
+
+<!-- MONEY -->
+<article class="tile t-marigold s-money tilt3">
+  <span class="chip">Money &middot; finances</span>
+  <h2>Money that lets me sleep.</h2>
+  <div class="fund">
+    <svg viewBox="0 0 100 80" role="img" aria-label="A mountain that fills with colour as the fund grows">
+      <defs><clipPath id="mclip"><rect id="mrect" x="0" y="80" width="100" height="0"/></clipPath></defs>
+      <path d="M4 76L38 18l14 22 14-14 30 50z" fill="none" stroke="var(--ill)" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M4 76L38 18l14 22 14-14 30 50z" fill="var(--ill2)" clip-path="url(#mclip)"/>
+    </svg>
+    <div>
+      <label for="fund">Mountain Fund filled: <output id="fundout">20%</output></label>
+      <input id="fund" type="range" min="0" max="100" value="20">
+    </div>
+  </div>
+  <div class="pic"><b>Picture this</b>A drawn mountain you colour in as savings grow. An envelope marked "Mountain Fund". A notebook with ₹ ____ written in your own handwriting.</div>
+  <p class="step"><b>2027:</b> Emergency fund first, then a monthly investment on autopilot. Health and term insurance sorted. Fill in your own numbers.</p>
+</article>
+
+<!-- PEACE -->
+<article class="tile t-sage s-peace tilt2">
+  <span class="chip">Peace</span>
+  <h2>Tea, finished while it's still hot.</h2>
+  <svg class="ill" viewBox="0 0 120 90" role="img" aria-label="A cup of chai with steam and a book beside it">
+    <path class="l" d="M30 40h44v18a22 22 0 0 1-44 0z"/><path class="l" d="M74 46h8a8 8 0 0 1 0 16h-8"/>
+    <path class="l2" d="M42 32c-4-6 4-8 0-14M56 32c-4-6 4-8 0-14M68 32c-4-6 4-8 0-14"/>
+    <rect class="b" x="86" y="64" width="26" height="10" rx="2"/><rect class="a" x="88" y="54" width="22" height="10" rx="2" opacity=".6"/>
+  </svg>
+  <div class="pic"><b>Picture this</b>A window, a cup with steam, a book face-down on the arm of the chair, the dog's chin on your foot. No phone in the shot.</div>
+  <p class="step"><b>2027:</b> A screen-free first hour. Sundays off from posting. One slow weekend a month with nothing scheduled.</p>
+</article>
+
+<!-- HEALTH -->
+<article class="tile t-rose s-health tilt3">
+  <span class="chip">Health &middot; body</span>
+  <h2>Strong, rested, listened to.</h2>
+  <svg class="ill" viewBox="0 0 160 90" role="img" aria-label="Gym shoes on the left, a folded blanket and book on the right">
+    <path class="l" d="M12 62h40l4-16-14-6-8 10-14 4z"/><path class="l" d="M12 62h44"/><circle class="b" cx="26" cy="52" r="3"/>
+    <path class="l2" d="M80 20v54"/>
+    <rect class="a" x="96" y="58" width="52" height="14" rx="3" opacity=".8"/><rect class="b" x="100" y="46" width="44" height="12" rx="3"/><rect class="l" x="106" y="30" width="30" height="16" rx="2"/>
+  </svg>
+  <div class="pic"><b>Picture this</b>Two halves of one shelf: gym shoes and a water bottle on one side, a folded blanket and a library book on the other. Both are part of the plan.</div>
+  <p class="step"><b>2027:</b> Strength training 3–4 days a week on good days, rest days that count as plan. Yearly check-ups booked. Measure energy and sleep, not a weight on a scale.</p>
+</article>
+
+<!-- TRAVEL -->
+<article class="tile t-teal s-travel tilt1">
+  <span class="chip">Travel</span>
+  <h2>Annapurna, a train window, one dream city.</h2>
+  <svg class="ill" viewBox="0 0 160 90" role="img" aria-label="Mountains with a line of prayer flags and a trekking boot">
+    <path class="l" d="M6 74l36-50 20 28 18-18 40 40z"/><path class="a" d="M42 24l-8 12 8-3 6 5z"/>
+    <path class="l2" d="M96 20q24 10 56 0"/><g class="b"><path d="M104 24l6-1-1 8z"/><path d="M118 26l6-1-1 8z"/><path d="M132 26l6-1-1 8z"/><path d="M146 24l6-1-1 8z"/></g>
+  </svg>
+  <div class="pic"><b>Picture this</b>Boots at the start of a trail. A line of prayer flags against a blue morning. A passport stamp and a notebook, and nobody asking where you'll be next.</div>
+  <p class="step"><b>2027:</b> Annapurna Base Camp trek planned and trained for. One long solo train journey. One week in Milan, France or London: pick one.</p>
+</article>
+
+<!-- HOUSE -->
+<article class="tile t-paper s-house tilt2">
+  <span class="chip">House &middot; the mountain home</span>
+  <h2>A window with pines in it.</h2>
+  <svg class="ill" viewBox="0 0 220 110" role="img" aria-label="A small wooden house with a window, pine trees and a dog bed">
+    <path class="l" d="M30 62l50-36 50 36v38H30z"/><rect class="l" x="64" y="64" width="32" height="36"/><rect class="b" x="70" y="44" width="20" height="16" opacity=".9"/>
+    <path class="l" d="M150 100V70M150 70l-12 16h24zM150 54l-14 20h28z" /><path class="l" d="M186 100V76M186 76l-10 14h20zM186 62l-12 16h24z"/>
+    <ellipse class="b" cx="205" cy="102" rx="12" ry="5" opacity=".8"/>
+  </svg>
+  <div class="pic"><b>Picture this</b>A wall of books. A wooden window frame with pines behind it. A stove, a dog bed next to it, one good chair, and a desk where you write. Also: a bed in town that is yours, so you can be a nomad without losing your pillow.</div>
+  <p class="step"><b>2027:</b> A house fund with a name. Scout one mountain town for two weeks. Decide: buy, build or rent first.</p>
+</article>
+
+<!-- CAR -->
+<article class="tile t-marigold s-car tilt3">
+  <span class="chip">Car</span>
+  <h2>A car that reaches the mountains.</h2>
+  <svg class="ill" viewBox="0 0 140 70" role="img" aria-label="A small SUV with a roof rack">
+    <path class="l" d="M10 52v-12l14-4 12-14h54l14 14 14 4v12z"/><path class="l" d="M36 26v10h68V26"/>
+    <circle class="a" cx="38" cy="54" r="9"/><circle class="a" cx="102" cy="54" r="9"/><circle class="b" cx="38" cy="54" r="3"/><circle class="b" cx="102" cy="54" r="3"/>
+    <path class="l2" d="M44 14h52"/>
+  </svg>
+  <div class="pic"><b>Picture this</b>A reliable car on a viewpoint road. Luggage in the back, a dog on the seat, chai in the cupholder.</div>
+  <p class="step"><b>2027:</b> Decide new or used. Set the down-payment goal and the monthly limit before you fall for the showroom.</p>
+</article>
+
+<!-- STYLE -->
+<article class="tile t-rose s-style tilt1">
+  <span class="chip">Jewellery &middot; style</span>
+  <h2>Pieces I'll wear for twenty years.</h2>
+  <svg class="ill" viewBox="0 0 160 90" role="img" aria-label="A pair of jhumka earrings and a thin chain">
+    <g class="l"><path d="M30 12v14"/><path d="M30 26a14 14 0 0 1 14 14H16a14 14 0 0 1 14-14z"/><path d="M62 12v14"/><path d="M62 26a14 14 0 0 1 14 14H48a14 14 0 0 1 14-14z"/></g>
+    <g class="b"><circle cx="22" cy="48" r="3"/><circle cx="30" cy="52" r="3"/><circle cx="38" cy="48" r="3"/><circle cx="54" cy="48" r="3"/><circle cx="62" cy="52" r="3"/><circle cx="70" cy="48" r="3"/></g>
+    <path class="l2" d="M100 14q30 60 56 0"/><circle class="b" cx="128" cy="58" r="6"/>
+  </svg>
+  <div class="pic"><b>Picture this</b>A flat-lay on a handloom cloth: gold jhumkas, a thin chain, oxidised silver, a watch. Beside it, a skirt, a barrel pant and a farshi salwar. All of it hers.</div>
+  <p class="step"><b>2027:</b> One meaningful piece at each milestone, not on impulse. A capsule wardrobe that matches the person, not the version you'll be later.</p>
+</article>
+
+<!-- WRITING -->
+<article class="tile t-sage s-write tilt2">
+  <span class="chip">Writing</span>
+  <h2>Something with my name on it.</h2>
+  <svg class="ill" viewBox="0 0 120 80" role="img" aria-label="A stack of pages with a mug ring and a pen">
+    <rect class="l" x="20" y="18" width="62" height="50" rx="2"/><path class="l" d="M30 32h42M30 42h42M30 52h28"/>
+    <circle class="l2" cx="92" cy="54" r="10"/><path class="l" d="M98 12l12 12-30 30"/>
+  </svg>
+  <div class="pic"><b>Picture this</b>A stack of printed pages with a chai ring on the top sheet. A pen. A first small zine or ebook, held in hands.</div>
+  <p class="step"><b>2027:</b> One essay a week. Twelve of the best become a zine or ebook.</p>
+</article>
+
+<!-- LOVE -->
+<article class="tile t-teal s-love tilt3">
+  <span class="chip">Love &middot; home</span>
+  <h2>Room to breathe, together.</h2>
+  <svg class="ill" viewBox="0 0 160 80" role="img" aria-label="Two chairs side by side with a shared lamp and two cups">
+    <path class="l" d="M20 64V34h22v30M20 50h22"/><path class="l" d="M110 64V34h22v30M110 50h22"/>
+    <path class="l2" d="M76 64V26"/><path class="a" d="M64 26h24l-4-12h-16z"/>
+    <circle class="b" cx="52" cy="58" r="5"/><circle class="b" cx="100" cy="58" r="5"/>
+  </svg>
+  <div class="pic"><b>Picture this</b>Two chairs, one lamp, two cups. Both reading, both in the same room, neither asking the other to be someone else.</div>
+  <p class="step"><b>2027:</b> A weekly hour together with phones away. A weekly hour alone, held as seriously.</p>
+</article>
+
+<!-- PEOPLE -->
+<article class="tile t-terra s-people tilt1">
+  <span class="chip">Community</span>
+  <h2>A few real people, and strangers who get it.</h2>
+  <svg class="ill" viewBox="0 0 160 80" role="img" aria-label="A table with three chairs and pinned notes">
+    <path class="l" d="M30 40h100M50 40v28M110 40v28"/><circle class="a" cx="40" cy="26" r="8"/><circle class="b" cx="80" cy="26" r="8"/><circle class="a" cx="120" cy="26" r="8"/>
+    <rect class="b" x="10" y="8" width="14" height="14" transform="rotate(-8 17 15)"/><rect class="a" x="138" y="8" width="14" height="14" transform="rotate(6 145 15)"/>
+  </svg>
+  <div class="pic"><b>Picture this</b>A table with three chairs and a pin board of messages from people who said "same". A coffee date you didn't cancel.</div>
+  <p class="step"><b>2027:</b> Meet one friend a month. Reply to every early comment. Be easy to find for the people who feel in the middle too.</p>
+</article>
+
+</main>
+
+<section class="block">
+  <h2>What I read in you</h2>
+  <p class="lede">The short version, from everything shared so far.</p>
+  <div class="cols">
+    <div class="card"><h3>What I understood</h3>
+      <ul>
+        <li>You want rich-girl money and retired-grandmother peace, both at once. That tension is the page.</li>
+        <li>You're a careful perfectionist who procrastinates, and you've blocked people you know so you can be honest with strangers.</li>
+        <li>You've been an engineering student, theatre artist, entrepreneur, mountain-dweller and professional. Thirty, apparently.</li>
+        <li>Your dreams: mountains, writing, Annapurna, a home of your own, work you love, no money worry.</li>
+        <li>Your style sits between old-school Indian and Gen Z: skirts, barrel pants, styled dresses, farshi salwar.</li>
+      </ul></div>
+    <div class="card"><h3>What I'm still unsure about</h3>
+      <ul>
+        <li>Where you live now: small town in MP, or a city (the bible says city).</li>
+        <li>Whether the mountain house is a someday dream or a 2027 action.</li>
+        <li>How much of your health story you want public.</li>
+        <li>Your real numbers for money, so the board stays blank where it should.</li>
+      </ul></div>
+  </div>
+</section>
+
+<section class="block">
+  <h2>What else to add</h2>
+  <p class="lede">Things that aren't on the board yet but usually hold the rest up.</p>
+  <div class="add">
+    <div><b>An emergency fund and insurance</b><span>Money peace starts with a floor, not a high.</span></div>
+    <div><b>A "not doing" list</b><span>Three things you'll say no to in 2027.</span></div>
+    <div><b>A learning line</b><span>One course: editing or writing. Pick the one that removes the most friction.</span></div>
+    <div><b>A weekly artist date</b><span>One hour that has no output attached.</span></div>
+    <div><b>Support</b><span>A friend or counsellor you can say the messy parts to.</span></div>
+    <div><b>An offline hobby</b><span>Pottery, a dance class, a garden. Something nobody sees.</span></div>
+    <div><b>A giving line</b><span>You said you want to give money away. Give it a name and a monthly amount.</span></div>
+    <div><b>An archive</b><span>Scan old theatre photos and notebooks. They're future content and a record of who you were.</span></div>
+    <div><b>A "done" list</b><span>At the end of each month, write down what you finished, not what you missed.</span></div>
+  </div>
+</section>
+
+<footer><span class="hand">Print it, pin it, or rebuild it with your own photos.</span> The scenes above are visual ideas for each tile. Swap in your real photos as you collect them, and fill the blanks with your own numbers.</footer>
+</div>
+
+<script>
+(function(){
+  var r=document.getElementById('fund'),o=document.getElementById('fundout'),m=document.getElementById('mrect');
+  function set(v){o.textContent=v+'%';var h=76*v/100;m.setAttribute('y',String(80-h));m.setAttribute('height',String(h))}
+  try{var s=localStorage.getItem('fund2027');if(s!==null){r.value=s}}catch(e){}
+  set(+r.value);
+  r.addEventListener('input',function(){set(+r.value);try{localStorage.setItem('fund2027',r.value)}catch(e){}});
+})();
+</script>
